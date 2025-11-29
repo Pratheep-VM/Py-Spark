@@ -1,4 +1,4 @@
-# What is RDD?
+## 1. What is RDD?
 RDD stands for Resilient Distributed Dataset.
 - **Resilient:** It auto-recovers if a node crashes.
 - **Distributed:** Data is split across Node A, B, and C.
@@ -7,7 +7,7 @@ RDD stands for Resilient Distributed Dataset.
 ### Key Takeaway
 RDDs are the "DNA" of Spark. Even when using DataFrames, RDDs run underneath..
 
-# DAG and Lazy Evaluation
+
 ## 2. The Execution Flow
 Spark operations are divided into two categories:
 
